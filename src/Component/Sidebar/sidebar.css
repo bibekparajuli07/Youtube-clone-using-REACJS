@@ -1,0 +1,50 @@
+.sidebar{
+    background: white;
+    width: 15%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    padding-left: 1%;
+    padding-top: 150px;
+    
+
+}
+.shortcut img{
+    width: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    
+}
+.side-link {
+    
+    margin-bottom:20px ;
+    width: fit-content;
+    align-items: center;
+    display: flex;
+    
+    cursor: pointer;    
+    flex-wrap: wrap;
+}
+.small-sidebar{
+    width: 5%;
+}
+.sidebar hr{
+    margin-top: 10px;
+    border: 1;
+    height: 1px;
+    background: white;
+    width: 85%;
+}
+
+.history img{
+    width: 25px; 
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.history h3{
+    font-size: 20px;
+    margin:20px 0;
+    color: black;
+    padding-left: 9%;
+}
+
