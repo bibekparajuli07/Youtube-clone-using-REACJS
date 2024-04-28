@@ -1,4 +1,4 @@
-//import React from 'react'
+import React from 'react'
 import './sidebar.css' 
 import Home from '../../assets/Home.png'
 import Trending from '../../assets/explore.png'
@@ -25,6 +25,10 @@ const sidebar = ({sidebar}) => {
         </div>
         <hr />
       </div>
+      
+      
+
+      
       <div className="history">
         <h3>Explore</h3>
       <div className='side-link'>

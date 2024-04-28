@@ -11,18 +11,20 @@ import profile_icon from '../../assets/jack.png'
 const Navbar = ({setSidebar}) => {
     
   return (
-    
+    /* left side navbar*/
     <nav className='flex-div'>
         <div className='nav-left'>
             <img className='menu' onClick={()=>setSidebar(prev=>prev===false?true:false)} src={menu_icon}alt=''/>
             <img className='logo'  src={Logo} alt=''/>
         </div>
+       { /*middle navbar */}
         <div className='nav-mid'>
             <div className="searchbox">
                 <input type="text" placeholder='Search'/>
                 <img src={search_icon} alt=""/>
             </div>
         </div>
+{/*right side nav bar */}
         <div className='nav-right'>
             <img src={upload_icon} alt=''/>
             <img src={more_icon} alt=''/>

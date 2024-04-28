@@ -14,6 +14,7 @@ import thumbnail8 from '../../assets/thumblnail8.jpg'
 const feed = () => {
 
   return (
+    /*Content with image and text*/
     <div className="feed">
         <div className="card">
             <img src={thumbnail1} alt=""/>
